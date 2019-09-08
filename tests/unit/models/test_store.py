@@ -1,5 +1,5 @@
-from models.store import StoreModel
 from tests.unit.unit_base_test import UnitBaseTest
+from models.store import StoreModel
 
 
 class StoreTestUnit(UnitBaseTest):

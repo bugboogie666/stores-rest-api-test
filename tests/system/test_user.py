@@ -4,6 +4,7 @@ import json
 
 
 class UserTest(BaseTest):
+
     def test_register_user(self):
         with self.app() as client:
             with self.app_context():
